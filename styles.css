@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Tektur', cursive;
+  background-color: #333;
+  color: #e0e0e0;
+}
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+h1{
+  margin: 40px auto;
+  color: #ff0aa7;
+  text-align: center;
+  user-select: none;
+}
+ul{
+  padding: 0;
+  list-style-type: none;
+}
+li{
+  padding: 6px 10px;
+  border: 1px solid #eee;
+  margin: 10px auto;
+}
+li h4{
+  color: #ff0aa7;
+  margin: 0;
+  text-transform: capitalize;
+}
+li p{
+  color: #333;
+  margin: 8px 0 0;
+}
+footer{
+  background: #292929;
+  padding: 60px;
+  margin-top: 60px;
+}
+form{
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+label{
+  display: block;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin: 16px 0 6px;
+}
+input, select{
+  background-color: #999;
+  outline: none;
+  padding: 6px;
+  border: 2px solid #292929;
+  border-radius: 4px;
+  transition: 200ms;
+}
+input:focus {
+  border-color: #ff0aa7;
+}
+.field{
+  display: inline-block;
+  margin: 0 10px;
+}
+button{
+  color: white;
+  border: 0;
+  background: #ff0aa7;
+  padding: 6px;
+  min-width: 80px;
+  border-radius: 4px;
+  font-family: 'Tektur', cursive;
+}
+footer a{
+  text-align: center;
+  display: block;
+  color: #999;
+  margin-top: 40px;
+  font-size: 0.7em;
+}
